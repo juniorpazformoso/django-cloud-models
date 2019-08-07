@@ -1,0 +1,29 @@
+<html>
+
+
+<body>
+<h1>All documents</h1>
+<table border="1">
+    {% for house in all_houses %}
+        <tr>
+            <td>{{house.address}}</td>
+            <td>{{house.color}}</td>
+            <td>{{house.price}}</td>
+        </tr>
+    {% endfor %}
+</table>
+
+<h1>House with color red</h1>
+<table border="1">
+    {% for house in all_red_houses %}
+        <tr>
+            <td>{{house.address}}</td>
+            <td>{{house.color}}</td>
+            <td>{{house.price}}</td>
+        </tr>
+    {% endfor %}
+</table>
+
+</body>
+
+</html>
