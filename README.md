@@ -1,8 +1,6 @@
 # django-cloud-models
 
 Explore Amazon Elasticsearch 7.x with Django Elasticsearch DSL<br>
-Last Django Elasticsearch DSL don't have support for
-Amazon Elasticsearch 7.x this project explore missing features.
 
 # Requirements
 
